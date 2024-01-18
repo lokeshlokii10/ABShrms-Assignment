@@ -1,0 +1,31 @@
+h1 {
+  font-weight: 900;
+  font-size: 5.625rem;
+  margin: 50px 0 50px;
+  display: flex;
+  justify-content: center;
+  color: rgb(24, 24, 23);
+}
+
+.overlay {
+  position:fixed;
+  display:block;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  background-color:rgba(74,74,74,.8);
+  z-index:99999;
+}
+.spinner {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.navigation {
+  font-size: x-large;
+  margin: 0px 0px 0px 20px;
+ font-weight: 500;
+}
